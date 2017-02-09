@@ -9,12 +9,7 @@ $font-big: 22px !default;
 $font-huge: 40px !default;
 $line-height: 130% !default;
 
-// Colors
-$primary: $turqoise !default;
-$secondary: lighten($turqoise, 10%) !default;
-$accent: $yellow !default;
-
-$body-background: $paper !default;
+$body-background: color(paper) !default;
 
 // Grid
 $grid-columns: 12 !default;

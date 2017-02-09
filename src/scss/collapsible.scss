@@ -28,8 +28,8 @@ label[for*="collapsible-"] { // Label
 	display: flex;
 	position: relative;
 	padding: $space-small*1.5 24px;
-	border-bottom: solid 1px lighten($grey, 30%);
-	color: lighten($black, 15%);
+	border-bottom: solid 1px lighten(color(grey), 30%);
+	color: lighten(color(black), 15%);
 	border-radius: 3px;
 	&:before, &:after {
 		content: '';
@@ -37,7 +37,7 @@ label[for*="collapsible-"] { // Label
 		right: $space-med;
 		width: 2px;
 		height: 8px;
-		background: $grey;
+		background: color(grey);
 		transition: all 0.3s ease;
 	}
 	&:before {

@@ -4,7 +4,7 @@
 
 div, p, h1, h2, h3, h4, h5, h6, a, input, label, header, aside, menu, body {
 	font-family: $sans;
-	color: $black;
+	color: color(black);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,5 +46,5 @@ p, a {
 
 .subtitle {
 	font-style: italic;
-	color: darken($grey, 5%);
+	color: darken(color(grey), 5%);
 }
